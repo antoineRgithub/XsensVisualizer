@@ -1,0 +1,9 @@
+echo Welcome !
+echo Updating pip...
+py -m pip install --upgrade pip
+echo Installing required packages...
+py -m pip install -r requirements.txt
+echo Packages installed.
+echo Running...
+py .\appshiny.py
+pause
